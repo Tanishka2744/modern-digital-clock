@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Main Clock Container -->
+    <main class="clock-container">
+
+        <!-- Clock Card -->
+        <section class="clock-card">
+
+            <!-- Day Indicator -->
+            <div class="day-indicator">
+                <span class="day-dot"></span>
+                <span id="day">Saturday</span>
+            </div>
+
+            <!-- Digital Time -->
+            <div class="time-wrapper">
+
+                <div class="time" id="time">
+                    <span id="hours">10</span>
+                    <span class="separator">:</span>
+                    <span id="minutes">30</span>
+                    <span class="separator">:</span>
+                    <span id="seconds">45</span>
+                </div>
+
+                <!-- AM / PM -->
+                <span class="ampm" id="ampm">AM</span>
+
+            </div>
+
+            <!-- Date -->
+            <div class="date-wrapper">
+                <span class="calendar-icon">📅</span>
+                <span id="date">August 8, 2026</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
